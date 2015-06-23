@@ -1,7 +1,19 @@
+.device{
+  height: 795px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  width: 400px;
+}
+
 .iframe {
-   width: 375px;
-   height: 667px;
-   border: 1px solid black; 
+  background: #fff;
+  border: none;
+  height: 580px;
+  left: 34px;
+  position: absolute;
+  top: 85px;
+  width: 332px;
 }
 
 .logo {
