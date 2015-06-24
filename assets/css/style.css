@@ -1,23 +1,48 @@
-.device{
-  height: 795px;
-  margin: 0 auto;
-  position: relative;
-  text-align: center;
-  width: 400px;
-}
-
-.iframe {
-  background: #fff;
-  border: none;
-  height: 580px;
-  left: 34px;
-  position: absolute;
-  top: 85px;
-  width: 332px;
-}
-
 .logo {
    width: 153px;
    height: 153px;
    background-image: url(../img/logo.png);
 }
+
+
+.device{
+
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+
+}
+
+.iframe {
+  position: absolute;
+  background: #fff;
+  border: none;
+
+}
+
+
+.device-iphone{
+  width: 400px;
+  height: 795px;
+}
+
+.iframe-iphone {
+  top: 85px;
+  left: 34px;
+  width: 332px;
+  height: 580px;
+}
+
+.device-ipad{
+  width: 708px;
+  height: 550px;
+}
+
+.iframe-ipad {
+  top: 55px;
+  left: 65px;
+  width: 578px;
+  height: 434px;
+}
+
+
