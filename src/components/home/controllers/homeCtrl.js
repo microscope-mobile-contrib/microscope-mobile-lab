@@ -8,7 +8,7 @@ function HomeCtrl($sce, $scope) {
 
 	this.source = '';
 	this.iframe = {
-		url: 'http://codepen.io/tomadj/full/ZGaKor/'
+		url: 'http://localhost:8100/'
 	};
 
 
