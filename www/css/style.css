@@ -1,16 +1,36 @@
+
+
 .logo {
    width: 153px;
    height: 153px;
    background-image: url(../img/logo.png);
 }
 
+.title {
+  font-size: 32px;
+  font-family: "Copperplate gothic 31 AB";
+  margin-left: 20px;
+}
+
+.content {
+    position:relative;
+}
+
+.stores {
+  position: relative;
+  text-align: center;
+}
+
+.btn-settings{
+  position: absolute;
+  top:0;
+  left:0; 
+}
 
 .device{
-
   margin: 0 auto;
   position: relative;
   text-align: center;
-
 }
 
 .iframe {
