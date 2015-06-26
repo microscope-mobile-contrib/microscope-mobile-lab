@@ -5,9 +5,11 @@ var angular = require('angular');
 var HomeCtrl  = require('./controllers/homeCtrl');
 
 
+
 // Home sub-module definition
 var home = angular.module('app.home', []);
 home.controller('HomeCtrl', ['$sce', '$scope', HomeCtrl]);
+
 
 
 module.exports = home;

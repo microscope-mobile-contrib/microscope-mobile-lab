@@ -16,15 +16,23 @@ function HomeCtrl($sce, $scope) {
 
 	this.devices = [
 		{
-			name: 'iphone',
-			deviceClass: 'device-iphone',
-			iframeClass: 'iframe-iphone',
-			img: 'iphone.png',
+			name: 'Htc',
+			deviceClass: 'device-htc',
+			iframeClass: 'iframe-htc',
+			img: 'htc.png',
 			urlAppStore : 'https://itunes.apple.com/fr/app/uber-votre-chauffeur-prive/id368677368?mt=8&v0=WWW-EUFR-ITSTOP100-FREEAPPS&l=fr&ign-mpt=uo%3D4',
 			urlPlayStore : 'https://play.google.com/store/apps/details?id=com.ubercab&hl=fr'
 		},
 		{
-			name: 'ipad',
+			name: 'Iphone 6 Plus',
+			deviceClass: 'device-iphone6plus',
+			iframeClass: 'iframe-iphone6plus',
+			img: 'iPhone6Plus.png',
+			urlAppStore : 'https://itunes.apple.com/fr/app/uber-votre-chauffeur-prive/id368677368?mt=8&v0=WWW-EUFR-ITSTOP100-FREEAPPS&l=fr&ign-mpt=uo%3D4',
+			urlPlayStore : 'https://play.google.com/store/apps/details?id=com.ubercab&hl=fr'
+		},
+		{
+			name: 'Ipad',
 			deviceClass: 'device-ipad',
 			iframeClass: 'iframe-ipad',
 			img: 'ipad.png',

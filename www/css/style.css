@@ -42,16 +42,28 @@
 }
 
 
-.device-iphone{
+.device-htc{
   width: 400px;
   height: 795px;
 }
 
-.iframe-iphone {
+.iframe-htc {
   top: 85px;
   left: 34px;
   width: 332px;
   height: 580px;
+}
+
+.device-iphone6plus{
+  width: 400px;
+  height: 795px;
+}
+
+.iframe-iphone6plus {
+  top: 118px;
+  left: 41px;
+  width: 322px;
+  height: 573px;
 }
 
 .device-ipad{
