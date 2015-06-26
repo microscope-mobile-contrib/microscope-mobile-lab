@@ -4,6 +4,7 @@ var _$sce;
 
 // HomeCtrl class
 function HomeCtrl($sce, $scope) {
+	var self = this;
 	_$sce = $sce;
 
 	this.source = '';
@@ -11,7 +12,8 @@ function HomeCtrl($sce, $scope) {
 		url: 'http://codepen.io/tomadj/full/ZGaKor/'
 	};
 
-
+	
+	
 	this.getSource();
 
 	this.devices = [
@@ -42,6 +44,13 @@ function HomeCtrl($sce, $scope) {
 	
 	this.selectedDeviceTemp = this.devices[1];	
 	this.selectedDevice = this.devices[1];
+	
+	this.isLoading = false;
+	
+	this.iframeLoaded = function(contentLocation){
+		console.log(contentLocation);
+		self.isLoading = false;
+	};
 
 }
 

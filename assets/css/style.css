@@ -34,11 +34,17 @@
   text-align: center;
 }
 
+
+  
 .iframe {
   position: absolute;
   background: #fff;
   border: none;
 
+}
+
+.loading {
+  background-color: orange;
 }
 
 

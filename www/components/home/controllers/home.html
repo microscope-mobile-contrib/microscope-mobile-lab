@@ -4,7 +4,9 @@
       <i class="fa fa-cog"></i>
     </button>
     <div class="device" ng-class="vm.selectedDevice.deviceClass">
-      <iframe ng-src="{{vm.source}}" class="iframe" ng-class="vm.selectedDevice.iframeClass"></iframe>
+     
+      <iframe ng-src="{{vm.source}}" class="iframe" ng-class="vm.selectedDevice.iframeClass" ng-on-load="vm.iframeLoaded()"  ></iframe>
+      <div class="iframe loading" ng-class="vm.selectedDevice.iframeClass" ng-show="vm.isLoading"></div>
       <img src="../img/{{vm.selectedDevice.img}}" />
     </div>
     
