@@ -22,6 +22,8 @@ build:
 run project (call gulp build):
 
 	gulp serve
+	
+![Alt text](https://github.com/microscope-mobile-contrib/microscope-mobile-lab/blob/master/screen.png)		
 
 ## roadmap 
 * add sass
