@@ -3,10 +3,15 @@
     <button type="button" class="btn btn-default btn-sm btn-settings" data-toggle="modal" data-target="#myModal">
       <i class="fa fa-cog"></i>
     </button>
+
     <div class="device" ng-class="vm.selectedDevice.deviceClass">
      
       <iframe ng-src="{{vm.source}}" class="iframe" ng-class="vm.selectedDevice.iframeClass" ng-on-load="vm.iframeLoaded()"  ></iframe>
-      <div class="iframe loading" ng-class="vm.selectedDevice.iframeClass" ng-show="vm.isLoading"></div>
+      <div class="iframe loading" ng-class="vm.selectedDevice.iframeClass" ng-show="vm.isLoading">
+
+  	   <word-press-spinner class="loader"></word-press-spinner>
+
+      </div>
       <img src="../img/{{vm.selectedDevice.img}}" />
     </div>
     

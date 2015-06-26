@@ -45,11 +45,12 @@ function HomeCtrl($sce, $scope) {
 	this.selectedDeviceTemp = this.devices[1];	
 	this.selectedDevice = this.devices[1];
 	
-	this.isLoading = false;
+	this.isLoading = true;
 	
 	this.iframeLoaded = function(contentLocation){
 		console.log(contentLocation);
 		self.isLoading = false;
+		$scope.$apply();
 	};
 
 }

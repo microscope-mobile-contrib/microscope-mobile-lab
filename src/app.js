@@ -5,6 +5,7 @@ var angular = require('angular');
 window.jQuery = window.$ = require('jquery');
 require('bootstrap');
 require('angular-route');
+require('angular-spinkit');
 
 // Application routing and startup
 var Router  = require('./router');
@@ -16,7 +17,8 @@ require('./components/home/home');
 // Injection
 var app = angular.module('app', [
 	'ngRoute',
-	'app.home'
+	'app.home',
+	'angular-spinkit'
 ]);
 
 app.config(['$routeProvider', Router]);

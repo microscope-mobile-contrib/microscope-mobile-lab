@@ -44,7 +44,10 @@
 }
 
 .loading {
-  background-color: orange;
+  background-color: #4FABD9;
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
 
 
